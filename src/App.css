@@ -36,3 +36,135 @@
     transform: rotate(360deg);
   }
 }
+
+.login-btn {
+  background-color: gold;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: grey;
+  height: max-content;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.btn {
+  color: black;
+  background-color: gold;
+}
+
+.coin-page-container {
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.coin-details-container {
+  padding: 20px;
+  width: 30%;
+  margin: 30px;
+}
+.coin-details-container figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin-details-text {
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.important-text {
+  font-size: 30px;
+}
+
+.coin-graph {
+  width: 60%;
+  margin: 30px;
+}
+
+@media only screen and (max-width: 1100px) {
+  /* Styles */
+  .coin-page-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .coin-details-container {
+    width: 100%;
+  }
+  .coin-graph {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
+.wishlist-btn {
+  background-color: orange;
+}
+.remove-wishlist-btn {
+  background-color: red;
+}
+
+.remove-wishlist-btn,
+.wishlist-btn {
+  width: 500px;
+  padding: 15px;
+  align-self: center;
+  margin-top: 10px;
+  color: black;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.watchlist-container {
+  background-color: gray;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.watchlist {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: bolder;
+}
+
+.watchlist img {
+  height: 100px;
+}
+
+.remove-btn {
+  width: 100%;
+  background-color: red;
+  padding: 10px;
+  border: 0;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}

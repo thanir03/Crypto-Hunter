@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2022",
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "ES6"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,7 +21,11 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "noImplicitAny": true,
+  "noImplicitThis": true,
+  "strictNullChecks": true,
   "include": [
-    "src"
+    "src",
+    "src/components/UI/loginModal.tsx"
   ]
 }
